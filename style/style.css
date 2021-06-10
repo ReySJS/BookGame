@@ -1,0 +1,192 @@
+@import url('https://fonts.googleapis.com/css2?family=Handlee&display=swap');
+* {
+    box-sizing: border-box;
+    text-decoration: none;
+}
+input[type=number] { 
+   -moz-appearance: textfield;
+   appearance: textfield;
+   width: 60px;
+
+}
+html {
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+body {
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    background: rgb(59, 59, 59);
+}
+.return {
+    width: 50px!important;
+    height: 50px!important;
+    position: fixed;
+    top: 88%;
+    left: 2%;
+    text-align: center;
+    background: #e4d6b9;
+    border: 3px solid #492B1A;
+    font-size: 2em;
+    line-height: 50px;
+    color: #492B1A!important;
+    transition: 2s;
+    box-sizing: content-box;
+}
+.return:hover {
+    background: #492B1A;
+    color: #e4d6b9!important;
+    transition: 2s;
+}
+#content {
+    width: 80%;
+    height: 90%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    background: #e4d6b9;
+    font-family: 'Handlee', cursive;
+}
+.left_content {
+    width: 60%;
+    height: 100%;
+    border: 10px solid #492B1A;
+}
+#livros {
+    width: 100%;
+    height: 70%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    flex-flow: row wrap;
+    background: rgb(138, 92, 65);
+}
+.livros_disponiveis {
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-bottom: 10px solid #492B1A;
+    margin-bottom: 0;
+    box-sizing: content-box;
+}
+.livros_disponiveis img {
+    width: 60%;
+    cursor: pointer;
+}
+.livros_disponiveis span {
+    width: 75%;
+    margin-top: 5px;
+    text-align: center;
+    color: #E4D6B9;
+}
+.comandos {
+    width: 100%;
+    height: 30%;
+    display: flex;
+    justify-content: space-between;
+}
+#livro_selecionado {
+    width: 20%;
+    height: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#livro_selecionado img {
+    width: 70%;
+}
+#sorteio {
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+#sorteio p {
+    width: 100%;
+    height: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+}
+#pagina_sorteada, #letra_sorteada, #quantidade_letra_sorteada {
+    width: 60%;
+    height: 50%;
+    background: #f0ece5;
+    border: 1px dotted ;
+    font-size: 16px;
+    line-height: 160%;
+    font-size: 1.2em;
+}
+#letra_sorteada {
+    font-size: 1.2em;
+}
+.entrada_de_texto {
+    width: 45%;
+    display: flex;
+    justify-content: center;
+}
+#entrada_de_texto {
+    width: 90%;
+    margin: 0 auto;
+    padding: 10px;
+    text-align: center;
+    font-size: 1.2em;
+}
+.botao_jogar {
+    width: 10%;
+    height: 70%;
+    margin: auto;
+    border: 1px solid;
+    border-radius: 0;
+    outline: 0;
+    background: #492B1A;
+    color: #e4d6b9;
+    transition: 1s;
+    cursor: pointer;
+}
+.botao_jogar:hover {
+    background: #8A5C41;
+    transition: 1s;
+}
+.botao_jogar:active {
+    background: #ac7759;
+    transition: 0s;
+}
+.right_content {
+    width: 40%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url('../images/table.png') no-repeat;
+    background-size: 100%;
+    background-position: center;
+}
+#entrada_de_dados {
+    width: 40%;
+    height: 45%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    color: #E4D6B9;
+}
+#resultado_do_jogo {
+    width: 100%;
+    /* background: #f0ece5;
+    border: 1px dotted ; */
+    color: #f0ece5;
+    text-align: center;
+    font-size: 1.5em;
+}

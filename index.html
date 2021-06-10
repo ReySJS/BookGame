@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style/style.css" type="text/css" rel="stylesheet" />
+    <title>Document</title>
+</head>
+
+<body>
+    <a class="return" href="http://ubuntu.alphaedtech.org.br/aspirante/reinansantos/"><span>&larr;</span></a>
+    <div id="content">
+        <div class="left_content">
+            <div id="livros">
+
+            </div>
+            <div class="comandos">
+                <p id="livro_selecionado"><img id="livro_selecionado_img" src="images/livro_default.jpg" /><span id="livro_selecionado_span">Escolha um Livro</span></p>
+                <div id="sorteio">
+                    <p><span>Pagina Sorteada</span>
+                        <span id="pagina_sorteada"></span>
+                    </p>
+                    <p><span>Letra Sorteada</span>
+                        <span id="letra_sorteada"></span>
+                    </p>
+                    <p><span>Quantidade</span>
+                        <span id="quantidade_letra_sorteada"></span>
+                    </p>
+                </div>
+                <p class="entrada_de_texto"><textarea id="entrada_de_texto" cols="10" rows="10"></textarea></p>
+                <button class="botao_jogar" onclick="jogar(palpite_do_jose.value, palpite_do_caio.value)">Jogar</button>
+            </div>
+        </div>
+        <div class="right_content">
+            <div id="entrada_de_dados">
+                <p><label for="palpite_do_jose">Palpite do José</label>
+                <input type="number" min="0" id="palpite_do_jose" /></p>
+                <span id="resultado_do_jogo"></span>
+                <p><input type="number" min="0" id="palpite_do_caio" />
+                <label for="palpite_do_caio">Palpite do Caio</label></p>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="script/script.js" type="text/javascript"></script>
+
+</html>
