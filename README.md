@@ -15,5 +15,5 @@ Game developed in Javascript with a deadline of 2 days in the third month of the
 ## 📐 Layout
 
 <p align="center">
-  <img alt="" src="https://user-images.githubusercontent.com/78664426/123471443-2c682700-d5cc-11eb-8c35-7630a9241c51.png" />
+  <img alt="Layout" src="https://user-images.githubusercontent.com/78664426/123471443-2c682700-d5cc-11eb-8c35-7630a9241c51.png" />
 </p>
